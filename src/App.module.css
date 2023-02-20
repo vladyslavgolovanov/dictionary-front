@@ -1,0 +1,93 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #faffaa;
+}
+
+.header {
+  width: 100%;
+  background: #faff92;
+  border-bottom: 1px solid gray;
+}
+
+.headerContainer {
+  height: 60px;
+  max-width: 1024px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.headerData {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.body {
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.bodyMessage {
+  text-align: center;
+}
+
+.bodyContainer {
+  max-width: 1024px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+  align-content: center;
+  padding-top: 10px;
+  gap: 20px;
+}
+
+.translationContainer {
+  height: 100%;
+  width: 60%;
+}
+
+.translationItem {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: #faff92;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.translationItem:hover {
+  background: #f7ff4e;
+}
+
+.translationEditor {
+  height: 100%;
+  width: 40%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: #faff92;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.editorItem {
+  margin-bottom: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
